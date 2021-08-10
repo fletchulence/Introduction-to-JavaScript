@@ -19,6 +19,14 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge = 20;
+  if (votingAge >= 18){
+    console.log(true);
+  } else {
+    console.log(false);
+  }
+
+
 
 
 
@@ -60,9 +68,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
+function multiply(num1, num2){
   /*add your code here*/
+  return (num1 * num2)
 }
+console.log(multiply(3,5))
 
 
 
@@ -76,10 +86,11 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
+function dogYears(humanYears){
   /*add your code here*/
+  return (humanYears*7);
 }
-
+console.log(dogYears(3));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -171,6 +182,7 @@ Using the miles function below do the following:
 */
 
 function miles(/*add your code here*/){
+  return 
   /*add your code here*/
 }
 
