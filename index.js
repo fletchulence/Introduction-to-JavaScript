@@ -28,8 +28,6 @@ let votingAge = 20;
 
 
 
-
-
 /*
 Task 1b - Values
 
@@ -181,10 +179,11 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-  return 
+function miles(km){
+  return km * 0.621371;
   /*add your code here*/
 }
+console.log(miles(5));
 
 
 
