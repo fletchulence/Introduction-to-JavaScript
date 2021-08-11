@@ -40,9 +40,14 @@ Do the following:
 */
 
 let var1 = 50;
-let var2 = 60;
+var var2 = 60;
+if (var1 <= var2){
+   var1 = var2;
+} else {
+   var2 = 'something fun';
+}
 
-
+console.log (var1);
 
 
 /*
@@ -56,7 +61,10 @@ Do the following:
    HINT: look up the Number method
 */
 
+var x = '1999';
+let y = Number(x);
 
+console.log(y);
 
 
 /*
